@@ -3,5 +3,7 @@ const nav = document.querySelector( '.navBar' )
 fetch( '/navbar.html')
 .then( res=>res.text())
 .then(data=>{
-	nav.innerHTML=data})
-.then( document.getElementById(${navType}).classList.add("main-navigation-button-active") )
+	nav.innerHTML=data});
+
+var element = document.getElementById(${navType});
+element.classList.add("main-navigation-button-active");
