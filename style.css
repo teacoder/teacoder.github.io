@@ -1,0 +1,100 @@
+body {
+	overflow: hidden;
+	height: 100%;
+	max-width: 75%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
+	margin: 0;
+	padding: 0 1em;
+}
+
+.main-header{
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	position: absolute;
+	width: 100%;
+	height: 11%;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: #000000;
+}
+
+.main-header-content-wrapper{
+	margin: 10px auto 0px auto;
+	text-align: left;
+	width: 100%;
+	min-width: 50px;
+	max-width: 474px;
+}
+
+.main-blog-title{
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.main-blog-subtitle{
+	font-size: 18px;
+	margin-bottom: 19px;
+}
+
+.main-navigation-bar{
+	text-align:left;
+	padding: 0px 0px 0px 0px;
+}
+
+.main-navigation-button{
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 8px 8px 0px 0px;
+  background-color: #F0F0F0;
+  margin: 0px 2px 0px 0px;
+  padding: 4px 10px 4px 10px;
+  display: inline-block;
+}
+
+.main-navigation-button:hover{
+	background-color: #E0E0E0;
+}
+
+.main-navigation-button-active{
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+.main-navigation-button-active:hover{
+	background-color: #303030;
+}
+
+.main-body{
+	overflow: auto;
+	position: absolute;
+	padding: 10px 0px 0px 0px;
+	width: 100%;
+	top: 11%;
+	height: 81%;	
+}
+
+.main-footer{
+	overflow: hidden;
+	border-top-style: solid;
+	border-top-width: 4px;
+	border-top-color: #000000;
+	padding: 10px 0px 0px 0px;
+	position: absolute;
+	width: 100%;
+	top: 93%;
+	height: 7%;	
+}
+
+.markdeepFooter{
+	position: absolute;
+	width: 95%;
+	top: 95%;
+	font-size:9px;
+	text-align:right;
+	padding-top: 0px;
+	padding-right: 100px;
+	color:#999
+}
