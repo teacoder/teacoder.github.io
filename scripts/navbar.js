@@ -1,4 +1,4 @@
-var navType = document.getElementsByName('navtype')[0].content;
+var navType = document.getElementsByName('navtype')[0].content[0];
 const nav = document.querySelector( '.navBar' )
 fetch( '/navbar.html')
 .then( res=>res.text())
