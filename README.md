@@ -1,2 +1,2 @@
 # teacoder.github.io
-Portfolio landing page for TeaCoder!
+[teacoder.github.io](https://teacoder.github.io)
