@@ -1,7 +1,10 @@
 var navType = document.getElementsByName('navtype')[0].content;
-console.log(navType);
 const nav = document.querySelector( '.navBar' )
-fetch( '/navbar.html')
+fetch( './navbar.html')
 	.then( res=>res.text())
-	.then(data=>{nav.innerHTML=data})
-	.then( document.getElementById('${navType}').classList.add("main-navigation-button-active"))
+	.then(data=>{
+		const parser = new DOMParser()
+		const doc = parser.parseFromString( data, "text/html")
+		doc.getElementById(navType).classList.add("main-navigation-button-active")
+		nav.innerHTML = new XMLSerializer().serializeToString(doc)
+	})	
