@@ -1,0 +1,11 @@
+{
+    "posts": [
+        {
+            "title": "A Portfolio Site",
+            "image": "./resources/posts/2026_03_02/title_image.png",
+            "summary": "How to build a portfolio site using HTML, CSS, and JavaScript that uses Markdeep to render markdown content and host it on GitHub Pages.",
+            "file": "./posts/2026_03_02.md.html",
+            "date": "2026-03-02"
+        }
+    ]
+}
